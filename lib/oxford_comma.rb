@@ -7,7 +7,6 @@ def oxford_comma(array)
     result_init = "#{array[0..-2].join(", ")
     result_last = array.last.insert(0, "and ")
     result = "#{result_init},  #{result_last}"
-    
   end 
   result
 end
